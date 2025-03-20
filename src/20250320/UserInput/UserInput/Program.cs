@@ -10,6 +10,17 @@ namespace UserInput
     {
         static void Main(string[] args)
         {
+            string name = string.Empty;
+            string userInput=string.Empty;
+            int birthYear = 0;
+            Console.Write("Please enter your name: ");
+            name=Console.ReadLine();
+            Console.Write("Hello "+ name);
+            Console.Write(". Please enter your birth year: ");
+            userInput=Console.ReadLine();
+            birthYear=int.Parse(userInput);
+            int age = DateTime.Now.Year - birthYear;
+            Console.WriteLine("Your age is: "+age);
         }
     }
 }
