@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExCircularCalculation", "ExCircularCalculation\ExCircularCalculation.csproj", "{B4068F5B-F35D-436F-B960-953BC8B0ECD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4068F5B-F35D-436F-B960-953BC8B0ECD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4068F5B-F35D-436F-B960-953BC8B0ECD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4068F5B-F35D-436F-B960-953BC8B0ECD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4068F5B-F35D-436F-B960-953BC8B0ECD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E7A98A3-DB44-463C-A5EA-434CF18E0988}
+	EndGlobalSection
+EndGlobal
