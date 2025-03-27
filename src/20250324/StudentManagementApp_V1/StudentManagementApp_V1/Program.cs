@@ -30,6 +30,9 @@ namespace StudentManagementApp_V1
             string studentCity;
             int postalCode;
              
+            Console.BackgroundColor= ConsoleColor.White;
+            Console.Clear();
+            Console.ForegroundColor= ConsoleColor.Black;
             DateTime DOB;
             Console.Write("Please enter your name: ");
             studentName = Console.ReadLine();
@@ -66,6 +69,8 @@ namespace StudentManagementApp_V1
             Console.Write("\nHello " + studentName);
             Console.Write("\nStudent's DOB:" + DOB);
             Console.Write("\nStudent's city:" + studentCity+ "\n\n"); 
+            Console.Write("\nStudent's city:" + studentCity);
+            Console.Write("- Postal Code:" + postalCode + "\n\n");
         }
     }
 }
