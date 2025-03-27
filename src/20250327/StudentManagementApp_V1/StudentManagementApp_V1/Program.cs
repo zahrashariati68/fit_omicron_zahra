@@ -40,7 +40,8 @@ namespace StudentManagementApp_V1
             studentName = Console.ReadLine();
             Console.ForegroundColor = ConsoleColor.Black;
             Console.Write("Please enter your birth day in the following format: DD.MM.YYYY: ");
-            while (userInputIsInvalid) {
+            do
+            {
                 Console.ForegroundColor = ConsoleColor.Red;
                 userInput = Console.ReadLine();
                 Console.ForegroundColor = ConsoleColor.Black;
@@ -57,11 +58,11 @@ namespace StudentManagementApp_V1
                     Console.Write("Please try again: ");
 
                 }
-            }
+            } while (userInputIsInvalid);
 
             userInputIsInvalid = true; 
-            Console.Write("\nPlease enter your postal code in number: ");
-            while (userInputIsInvalid)
+            Console.Write("Please enter your postal code: ");
+            do
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 userInput = Console.ReadLine();
@@ -78,8 +79,8 @@ namespace StudentManagementApp_V1
                     Console.WriteLine("Error: " + ex.Message);
                     Console.Write("Please try again: ");
                 }
-            }
-            Console.Write("\nPlease enter your city: ");
+            } while (userInputIsInvalid);
+            Console.Write("Please enter your city: ");
             Console.ForegroundColor = ConsoleColor.Red;
             studentCity = Console.ReadLine();
             Console.ForegroundColor = ConsoleColor.Black;
